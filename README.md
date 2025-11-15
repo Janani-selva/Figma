@@ -407,7 +407,7 @@ a {
 
 
 ## OUTPUT:
-![alt text](image.png)
+janani/designapp/Figma/image 9.png
 
 
 ## RESULT:
