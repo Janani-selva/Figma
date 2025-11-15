@@ -33,6 +33,7 @@ Publish the website in the given URL.
 Figma
 
 ## CODE:
+```
 <!DOCTYPE html>
 <html>
   <head>
@@ -45,10 +46,12 @@ Figma
     <div class="android-compact">
       <img class="screenshot" src="img/screenshot-2025-11-09-211904-1.png" />
       <div class="text-wrapper">Sports Day</div>
-      <div class="div">Login</div>
-      <div class="text-wrapper-2">Register</div>
       <img class="whatsapp-image" src="img/whatsapp-image-2025-10-17-at-23-23-55-ce1b14eb-1.png" />
       <img class="img" src="img/screenshot-2025-11-09-213029-1.png" />
+      <div class="rectangle"></div>
+      <div class="div">LOGIN</div>
+      <div class="rectangle-2"></div>
+      <div class="text-wrapper-2">REGISTER</div>
     </div>
   </body>
 </html>
@@ -101,30 +104,6 @@ a {
   white-space: nowrap;
 }
 
-.android-compact .div {
-  position: absolute;
-  top: 473px;
-  left: 43px;
-  font-family: "Irish Grover-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 64px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.android-compact .text-wrapper-2 {
-  position: absolute;
-  top: 596px;
-  left: 43px;
-  font-family: "Irish Grover-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 64px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
 .android-compact .whatsapp-image {
   position: absolute;
   top: 0;
@@ -143,6 +122,49 @@ a {
   height: 164px;
   aspect-ratio: 1.99;
   object-fit: cover;
+}
+
+.android-compact .rectangle {
+  top: 495px;
+  left: 51px;
+  width: 195px;
+  height: 59px;
+  position: absolute;
+  background-color: #d9d9d9;
+}
+
+.android-compact .div {
+  position: absolute;
+  top: 495px;
+  left: 75px;
+  font-family: "Instrument Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.android-compact .rectangle-2 {
+  top: 588px;
+  left: 43px;
+  width: 270px;
+  height: 72px;
+  position: absolute;
+  background-color: #d9d9d9;
+}
+
+.android-compact .text-wrapper-2 {
+  position: absolute;
+  top: 594px;
+  left: 51px;
+  width: 229px;
+  font-family: "Instrument Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
 <!DOCTYPE html>
@@ -306,8 +328,6 @@ a {
   white-space: nowrap;
 }
 
-
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -385,8 +405,9 @@ a {
 }
 
 
+
 ## OUTPUT:
-![alt text](<Screenshot 2025-11-09 213413.png>)
+![alt text](image.png)
 
 
 ## RESULT:
