@@ -407,7 +407,7 @@ a {
 
 
 ## OUTPUT:
-janani/designapp/Figma/image 9.png
+Figma/screenshot.png
 
 
 ## RESULT:
