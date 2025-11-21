@@ -403,11 +403,12 @@ a {
   letter-spacing: 0;
   line-height: normal;
 }
+```
 
 
 
 ## OUTPUT:
-Figma/screenshot.png
+![alt text](image.png)
 
 
 ## RESULT:
